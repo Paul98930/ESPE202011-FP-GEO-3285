@@ -1,10 +1,9 @@
-package basicoperations;
 
-public class BasicOperations {
+package basicoperators;
 
+public class BasicOperators {
     public static void main(String[] args) {
-       
-    int sum;
+        int sum;
     int addend_1;
     int addend_2; 
 
@@ -54,5 +53,5 @@ public class BasicOperations {
         residue = number_one % number_two;
         System.out.println("The value of residue is: " + residue);
     }
-   }
-
+    
+}
