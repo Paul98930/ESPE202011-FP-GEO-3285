@@ -9,7 +9,7 @@ System.out.println("************************************************************
    System.out.println("*************************************************************************************************"); 
    System.out.println("");
    
-int day = 3;
+int day = 6;
         String dayType;
         String dayString;
          
