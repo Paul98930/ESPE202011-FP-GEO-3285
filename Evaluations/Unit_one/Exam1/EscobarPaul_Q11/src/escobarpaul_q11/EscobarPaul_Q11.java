@@ -2,9 +2,9 @@
 package escobarpaul_q11;
 
 public class EscobarPaul_Q11 {
+
     public static void main(String[] args) {
-     
-    int option = 1; 
+       int option = 1; 
     int number_one = 6, mult= 1;
     int top = 12; 
 
@@ -15,10 +15,12 @@ public class EscobarPaul_Q11 {
              break;
             
    } default: System.out.println("Error la opcion no existe. ");
-     break; 
-  }  
- } 
-} 
+      break; 
+  }
+ }   
+}
+  
 
-      
+    
+    
 
