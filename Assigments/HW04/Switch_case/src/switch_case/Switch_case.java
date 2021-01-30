@@ -34,7 +34,7 @@ int day = 6;
          
         switch (day) {
         
-          //multiples cases sin declaraciones break
+          
          
             case 1:  
             case 2:
