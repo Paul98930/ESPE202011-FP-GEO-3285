@@ -1,0 +1,62 @@
+package functions;
+
+import java.util.Scanner;
+
+public class Funcion {
+    public static void main(String[] args) {
+
+        System.out.println("******************************************************************************************");
+        System.out.println("*Hi, Edison Lascano, PhD. My name's Paul Escobar in this case I show you my homework code*");
+        System.out.println("******************************************************************************************");
+        System.out.println("");
+
+        System.out.println("-Give me a number please-. ");
+        System.out.println("------------------------------------------------------------------");
+        System.out.println("");
+
+        Scanner in = new Scanner(System.in);
+        int number_one, number_two, number_three, number_four,quotient = 0;
+        System.out.println("The value of the two quotients is = " + quotient);
+        number_one = in.nextInt();
+        number_two = in.nextInt();
+        float divisionUno = 0.0F;
+        divisionUno = division(number_one, number_two);
+        System.out.println(divisionUno);
+
+        System.out.println("Enter the value, please");
+        number_three = in.nextInt();
+
+        System.out.println("Enter the value, please");
+        number_four = in.nextInt();
+        //int scanner_three = 0;
+
+        int g = 0;
+        int gUno = 0;
+        g = h(number_three);
+        System.out.println("The (scanner_three)^2 is" + g);
+       // int scanner_four = 0;
+
+        System.out.println("The multiplication table:" + number_four );
+        gUno = calculadora(number_four);
+    }
+    private static float division(int number_one, int number_two) {
+        float resultado = 0.0F;
+        resultado = (float) number_one/ (float) number_two;
+        return resultado;
+    }
+    private static int h(int number_threeH) {
+        int g = 0;
+        g = number_threeH * number_threeH;
+        return g;
+    }
+   public static int calculadora(int scanner_four) {
+        int top = 10;
+        for(int a=1 ; a <= top ; a++){
+            //int table = 0;
+            int product = scanner_four * a;
+            System.out.println( scanner_four + " * " + a + " = " + product);
+        }
+        int g = 0;
+        return g;
+    }
+}
