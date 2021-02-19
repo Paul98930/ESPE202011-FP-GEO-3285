@@ -14,12 +14,7 @@ public class HW12_TAXES {
 
         Scanner in = calculateIncomeTax();
 
-        System.out.println("");
-        System.out.println("");
-        System.out.println("**********************");
-        System.out.println("*The FOREIGN EXCHANGE*");
-        System.out.println("**********************");
-        System.out.println("");
+        printForeignExchange();
 
         float imponible_value_2 = 0.00F;
         float Foreign_money = 0.00F;
@@ -47,6 +42,15 @@ public class HW12_TAXES {
 
         calculateTheIva(in, percentage, number4);
 
+    }
+
+    public static void printForeignExchange() {
+        System.out.println("");
+        System.out.println("");
+        System.out.println("**********************");
+        System.out.println("*The FOREIGN EXCHANGE*");
+        System.out.println("**********************");
+        System.out.println("");
     }
 
     public static void calculateTheIva(Scanner in, float percentage, float number4) {
