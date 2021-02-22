@@ -36,7 +36,7 @@ public class HW13_Arrays {
 
         Scanner sc = new Scanner(System.in);
         int number_learner, i;
-        double suma = 0, media;
+        double summa = 0, median;
 
         do {
             System.out.print("HOW MANY STUDENTS ARE IN THE CLASE: ");
@@ -50,16 +50,16 @@ public class HW13_Arrays {
         }
 
         for (i = 0; i < corses.length; i++) {
-            suma = suma + corses[i];
+            summa = summa + corses[i];
         }
 
-        media = suma / corses.length;
+        median = summa / corses.length;
 
-        System.out.printf("Half corse of the course: %.2f %n", media);
+        System.out.printf("Half corse of the course: %.2f %n", median);
 
         System.out.println("Roster of the courses: ");
         for (i = 0; i < corses.length; i++) {
-            if (corses[i] > media) {
+            if (corses[i] > median) {
                 System.out.println("Number learner " + (i + 1) + " Final Corse: " + corses[i]);
             }
         }
