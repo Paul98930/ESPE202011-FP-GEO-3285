@@ -57,7 +57,7 @@ public class HW15_MatrixMultiplication {
         System.out.println("-Matrix V-");
         System.out.println("----------");
         showMatrix(V, n, p);
-        System.out.println("-Matrix W-");
+        System.out.println("-Matrix Wq-");
         System.out.println("----------");
         showMatrix(W, m, p);
 
