@@ -7,7 +7,8 @@ public class HW15_MatrixMultiplication {
 
     public static void main(String[] args) {
 
-        // In Linear Algebra the multiplications
+        
+       // In Linear Algebra the multiplications
         // of matrixs will be posible; 
         // when A = M(m*n)E(K) and B = M(m*n)E(K)
         // have the same columns and rows, where 
