@@ -1,12 +1,11 @@
 
-package hw16_functionsmatrix;
-import java.util.Scanner;
-
-public class HW16_FunctionsMatrix {
+package hw16_matrixfunctions;
+import java.util.Scanner; 
+public class HW16_MatrixFunctions {
 
     public static void main(String[] args) {
-       
- printMatrixMultiplicationBanner();
+    
+printMatrixMultiplicationBanner();
         
         Scanner in = new Scanner(System.in);
 
@@ -84,3 +83,4 @@ public class HW16_FunctionsMatrix {
         
         
         
+       
