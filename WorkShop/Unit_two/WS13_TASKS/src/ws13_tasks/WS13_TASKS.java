@@ -50,7 +50,7 @@ public class WS13_TASKS {
         System.out.println("What's the distance");
         distance1 = in.nextInt();
         System.out.println("What's the time?");
-        time1 = in.nextInt();
+        time = in.nextInt();
         System.out.println("The solution is: " + distance);
 
         calculateTheVelocity(distance, time);

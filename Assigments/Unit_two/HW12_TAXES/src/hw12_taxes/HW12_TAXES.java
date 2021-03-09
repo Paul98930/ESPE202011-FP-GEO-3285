@@ -7,6 +7,7 @@ public class HW12_TAXES {
 
     public static void main(String[] args) {
 
+        
         System.out.println("******************************************************************************************");
         System.out.println("*Hi, Edison Lascano, PhD. My name's Paul Escobar in this case I show you my homework code*");
         System.out.println("******************************************************************************************");
