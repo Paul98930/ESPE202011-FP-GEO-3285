@@ -19,7 +19,7 @@ public class TaxDeclaration {
         System.out.println("Enter the price of your products");
         price = input.nextFloat(); 
         
-        ivaValue = BasicTax.computeIva(price, ivaPercentage); 
+        ivaValue = BasicTax.computeIva(basePrice, percentageValue); 
         totalPrice = price + ivaValue; 
         
         System.out.println("total price-->"  + totalPrice);

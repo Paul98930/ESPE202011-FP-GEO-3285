@@ -1,41 +1,10 @@
 
-package hw16_matrixfunctions;
-import java.util.Scanner; 
-public class HW16_MatrixFunctions {
+package ec.edu.espe.matrixoperation;
 
-    public static void main(String[] args) {
+public class BasicMatrixOperation {
     
-printMatrixMultiplicationBanner();
-        
-        Scanner in = new Scanner(System.in);
-
-        System.out.println("Enter the numbers by m");
-        int m = in.nextInt();
-        System.out.println("Enter the numbers by n");
-        int n = in.nextInt();
-        System.out.println("Enter the numbers by p");
-        int p = in.nextInt();
-
-        int U[][] = new int[m][n];
-        int V[][] = new int[n][p];
-        int W[][] = new int[m][p];
-
-        computeMatrixMultiplication(m, n, U, p, V, W);
-
-        System.out.println("-Matrix U-");
-        System.out.println("----------");
-        showMatrix(U, m, n);
-        System.out.println("-Matrix V-");
-        System.out.println("----------");
-        showMatrix(V, n, p);
-        System.out.println("-Matrix W-");
-        System.out.println("----------");
-        showMatrix(W, m, p);
-       
-
-    }
-
-    public static void printMatrixMultiplicationBanner() {
+    
+     public static void printMatrixMultiplicationBanner() {
         // In Linear Algebra the multiplications
         // of matrixs will be posible;
         // when A = M(m*n)E(K) and B = M(m*n)E(K)
@@ -71,8 +40,8 @@ printMatrixMultiplicationBanner();
     }
 
     public static void showMatrix(int m[][], int f, int c) {
-        for (int i = 1; i < f; i++) {
-            for (int j = 1; j < c; j++) {
+        for (int i = 0; i < f; i++) {
+            for (int j = 0; j < c; j++) {
                 System.out.print(m[i][j] + " ");
             }
             System.out.println();
@@ -80,7 +49,4 @@ printMatrixMultiplicationBanner();
     }
 
 }
-        
-        
-        
-       
+    
