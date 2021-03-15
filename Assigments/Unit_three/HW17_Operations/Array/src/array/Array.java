@@ -1,8 +1,6 @@
 
 package array;
 
-
-
 import ec.edu.espe.matrixoperation.BasicMatrixOperation;
 import java.util.Scanner;
 
@@ -24,6 +22,7 @@ public class Array {
         int V[][] = new int[n][p];
         int W[][] = new int[m][p];
 
+        
         BasicMatrixOperation.printMatrixMultiplicationBanner();
         BasicMatrixOperation.computeMatrixMultiplication(m, n, U, p, V, W);
         BasicMatrixOperation.showMatrix(W, p, p);
