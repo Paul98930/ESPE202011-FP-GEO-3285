@@ -14,11 +14,19 @@ import ec.edu.espe.frmhutch.model.Rabit;
  */
 public class RabitController {
     
-    public void save(Rabit rabit){
+    public String save(Rabit rabit){
       String data = rabit.getName() + ", " + rabit.getColor() + ", " + rabit.getRace() + ", " + rabit.getSize();
       FileManager.save(data, "rabits");
     
+      return "rabits";
+    } 
     
+    public String read(){
+        
+        String data;
+            data = FileManager.read("rabits");
+      return data; 
     }
-    
+
+        
 }

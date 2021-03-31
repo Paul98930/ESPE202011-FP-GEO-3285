@@ -1,3 +1,23 @@
 
 BONI, BLack, BONI, 15
 BOS BONI, White, BOS BONI, 15
+BOS BONI, BLack, BOS BONI, 15
+Bos Boni, BLack, Bos Boni, 15
+BOS BONI, White, BOS BONI, 15
+BOS BONI, BLack, BOS BONI, 15
+BOS BONY, BLack, BOS BONY, 15
+BOS BONY, BLack, BOS BONY, 15
+HOLA MUNDO, Brown, HOLA MUNDO, 15
+BOS BONI, Brown, BOS BONI, 15
+BOS BONI, Brown, BOS BONI, 15
+BOS BONI, Brown, BOS BONI, 15
+Bos Bony, Brown, Bos Bony, 15
+Bos Bony, Brown, Bos Bony, 15
+Bos Bony, Brown, Bos Bony, 15
+Bos Bony, Brown, Bos Bony, 52
+Bos Bony, Brown, Bos Bony, 52
+BOS BNI, Brown, BOS BNI, 52
+BOS BONI, BLack, BOS BONI, 52
+BOS BONI, BLack, BOS BONI, 52
+BOS BONI, BLack, BOS BONI, 15
+BOS BONI, BLack, BOS BONI, 15

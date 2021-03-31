@@ -5,6 +5,9 @@
  */
 package Utils;
 
+
+import ec.edu.espe.frmhutch.controller.RabitController;
+import ec.edu.espe.frmhutch.model.Rabit;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -55,13 +58,36 @@ public class FileManager {
 
         return saved;
     }
-    
-    public static String read(String fileName) {
-        
-        //TODO code to read form a file
-        
-        return "pepito";
-    }
-}
-    
 
+    public static String read(String fileName) {
+         int numberOfLine = ; 
+         String text = ""; 
+         try{
+          Scanner s new Scanner(new File(fileName));
+          while(s.hasNextLine()){
+          
+            
+          }
+          
+          
+          
+          }
+         
+         
+         
+         
+         }
+         
+          return "pepito";
+       }
+    
+    }
+     
+
+        
+        
+        
+       
+          
+        
+        
